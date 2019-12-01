@@ -1,0 +1,3 @@
+<h6> Logged in as <%= @current_user.username %> </h6>
+<h1> <%= @chatroom.title %> </h1>
+<%= render 'comments/comments', chatroom: @chatroom %>
